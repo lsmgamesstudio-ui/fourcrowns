@@ -51,7 +51,7 @@ La conexión con Google Play la hace Unity In-App Purchasing, la librería de co
 
 El juego no solicita acceso a los contactos, la cámara, el micrófono ni tus archivos. Para jugar con amigos, Android te deja abrir con el juego el fichero de una partida que te hayan mandado: el juego lee solo ese fichero.
 
-Para jugar en la misma sala, Android exige permisos de Bluetooth, de Wi-Fi y de dispositivos cercanos y, en Android 12 y versiones anteriores, también el permiso de ubicación. El juego no usa ese permiso para saber dónde estás ni comparte tu ubicación: lo pide el sistema porque las búsquedas por Bluetooth podrían servir para deducirla. Estos permisos solo se piden al tocar «Crear partida en la sala» o «Unirse a una partida», y puedes retirarlos desde los ajustes de Android: solo afectan a jugar en la sala.
+Para jugar en la misma sala, Android exige permisos de Bluetooth, de Wi-Fi y de dispositivos cercanos, y el servicio de conexión de Google pide también el permiso de ubicación. El juego no usa ese permiso para saber dónde estás ni comparte tu ubicación: lo pide el sistema porque las búsquedas por Bluetooth podrían servir para deducirla. Estos permisos solo se piden al tocar «Crear partida en la sala» o «Unirse a una partida», y puedes retirarlos desde los ajustes de Android: solo afectan a jugar en la sala.
 
 ## Descarga desde Google Play
 
@@ -135,7 +135,7 @@ The connection with Google Play is made by Unity In-App Purchasing, Unity's purc
 
 The game does not ask for access to your contacts, camera, microphone or files. To play with friends, Android lets you open a game file you were sent with the game: the game reads only that file.
 
-To play in the same room, Android requires Bluetooth, Wi-Fi and nearby devices permissions and, on Android 12 and earlier, the location permission too. The game does not use that permission to know where you are and never shares your location: the system asks for it because Bluetooth scans could be used to infer it. These permissions are only requested when you tap “Create a same-room game” or “Join a game”, and you can withdraw them in Android settings: they only affect playing in the same room.
+To play in the same room, Android requires Bluetooth, Wi-Fi and nearby devices permissions, and Google's connection service also asks for the location permission. The game does not use that permission to know where you are and never shares your location: the system asks for it because Bluetooth scans could be used to infer it. These permissions are only requested when you tap “Create a same-room game” or “Join a game”, and you can withdraw them in Android settings: they only affect playing in the same room.
 
 ## Downloading from Google Play
 
