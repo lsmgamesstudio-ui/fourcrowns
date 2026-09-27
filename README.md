@@ -10,10 +10,10 @@ LSM Games Studio es el desarrollador de Four Crowns, un juego de estrategia por 
 
 **En resumen**
 
-- No hace falta crear una cuenta y no te pedimos tu correo ni otros datos personales. Para jugar con amigos se pide un nombre, que solo ven las personas con las que juegas.
+- No hace falta crear una cuenta y no te pedimos tu correo ni otros datos personales. Para jugar con amigos se pide un nombre, que ven las personas con las que juegas y, en la misma sala, los móviles cercanos que buscan partida.
 - Tu partida y tus ajustes se guardan solo en tu dispositivo.
 - El juego no muestra anuncios ni lleva servicios de estadísticas. Tiene una única compra opcional, el juego completo, que gestiona Google Play.
-- Se juega sin conexión. Solo se conecta para la compra: con Google Play y con la librería de compras de Unity. Las partidas con amigos viajan en un fichero que mandas tú y no pasan por ningún servidor.
+- Se juega sin conexión. Solo se conecta para la compra: con Google Play y con la librería de compras de Unity. Las partidas con amigos viajan en un fichero que mandas tú, o directamente entre móviles cercanos, y no pasan por ningún servidor.
 
 ## Datos guardados en tu dispositivo
 
@@ -27,9 +27,15 @@ Four Crowns permite jugar con amigos por turnos sin ningún servidor: la partida
 
 El fichero solo lo reciben las personas a las que tú se lo mandas, y la aplicación con la que lo compartes lo trata según su propia política de privacidad. LSM Games Studio no recibe esos ficheros ni tiene acceso a ellos. Cuando abres con el juego un fichero que te han mandado, el juego lee solo ese fichero y guarda la partida en tu dispositivo.
 
+## Jugar en la misma sala
+
+También podéis jugar en la misma sala, a la vez y cada uno en su móvil. El juego conecta los móviles que están cerca con Nearby Connections, de Google, que emplea Bluetooth y Wi-Fi directo. La conexión es entre los dispositivos: no pasa por internet ni por ningún servidor de LSM Games Studio.
+
+Mientras la partida está abierta, el móvil de quien la crea anuncia a los dispositivos cercanos el nombre que ha escrito para jugar con amigos, para que los demás la encuentren. Entre los móviles de la partida viajan la partida, las jugadas, y el nombre y el identificador aleatorio de cada jugador (los mismos que en las partidas por fichero). Cada móvil guarda una copia de la partida para poder seguirla si se corta la conexión. LSM Games Studio no recibe nada de esas partidas.
+
 ## Lo que el juego no hace
 
-La versión actual de Four Crowns no muestra publicidad y no incluye servicios de estadísticas, de publicidad ni de envío automático de informes de errores. Tampoco tiene modo en línea ni clasificaciones: se juega contra la máquina o con amigos pasándoos la partida en un fichero, y tus partidas no se mandan a ningún servidor nuestro ni de terceros.
+La versión actual de Four Crowns no muestra publicidad y no incluye servicios de estadísticas, de publicidad ni de envío automático de informes de errores. Tampoco tiene modo en línea ni clasificaciones: se juega contra la máquina o con amigos, pasándoos la partida en un fichero o conectando los móviles cercanos, y tus partidas no se mandan a ningún servidor nuestro ni de terceros.
 
 Está hecho con el motor Unity. Si en el futuro se añaden anuncios o cualquier otra función que trate datos, actualizaremos esta política e indicaremos la nueva fecha antes de publicarla.
 
@@ -43,7 +49,9 @@ La conexión con Google Play la hace Unity In-App Purchasing, la librería de co
 
 ## Permisos
 
-El juego no solicita acceso a la ubicación, los contactos, la cámara, el micrófono ni tus archivos. Para jugar con amigos, Android te deja abrir con el juego el fichero de una partida que te hayan mandado: el juego lee solo ese fichero.
+El juego no solicita acceso a los contactos, la cámara, el micrófono ni tus archivos. Para jugar con amigos, Android te deja abrir con el juego el fichero de una partida que te hayan mandado: el juego lee solo ese fichero.
+
+Para jugar en la misma sala, Android exige permisos de Bluetooth, de Wi-Fi y de dispositivos cercanos y, en Android 12 y versiones anteriores, también el permiso de ubicación. El juego no usa ese permiso para saber dónde estás ni comparte tu ubicación: lo pide el sistema porque las búsquedas por Bluetooth podrían servir para deducirla. Estos permisos solo se piden al tocar «Crear partida en la sala» o «Unirse a una partida», y puedes retirarlos desde los ajustes de Android: solo afectan a jugar en la sala.
 
 ## Descarga desde Google Play
 
@@ -86,10 +94,10 @@ LSM Games Studio is the developer of Four Crowns, a turn-based strategy game whe
 
 **In short**
 
-- You don't need an account, and we don't ask for your email or any other personal data. To play with friends you are asked for a name, which only the people you play with can see.
+- You don't need an account, and we don't ask for your email or any other personal data. To play with friends you are asked for a name, which the people you play with can see and, in the same room, nearby phones looking for a game.
 - Your game and settings are stored only on your device.
 - The game shows no ads and includes no analytics services. There is a single optional purchase, the full game, handled by Google Play.
-- It is played offline. It only connects for the purchase: with Google Play and with Unity's purchasing library. Games with friends travel in a file you send yourself and never go through a server.
+- It is played offline. It only connects for the purchase: with Google Play and with Unity's purchasing library. Games with friends travel in a file you send yourself, or directly between nearby phones, and never go through a server.
 
 ## Data stored on your device
 
@@ -103,9 +111,15 @@ Four Crowns lets you play with friends turn by turn without any server: the game
 
 The file only reaches the people you send it to, and the app you share it with handles it under its own privacy policy. LSM Games Studio does not receive those files and has no access to them. When you open a file you were sent with the game, the game reads only that file and saves the game on your device.
 
+## Playing in the same room
+
+You can also play in the same room, at the same time and each on your own phone. The game connects nearby phones using Google's Nearby Connections, which uses Bluetooth and Wi-Fi Direct. The connection is between the devices: it does not go through the internet or any LSM Games Studio server.
+
+While the game is open, the phone of whoever created it announces to nearby devices the name they typed to play with friends, so the others can find it. The game, the moves, and each player's name and random identifier (the same ones as in games passed around in a file) travel between the phones in the game. Each phone keeps a copy of the game so it can be continued if the connection drops. LSM Games Studio receives nothing from these games.
+
 ## What the game does not do
 
-The current version of Four Crowns shows no advertising and includes no analytics, advertising or automatic crash reporting services. It has no online mode or leaderboards either: you play against the computer or with friends by passing the game around in a file, and your games are not sent to any server of ours or of a third party.
+The current version of Four Crowns shows no advertising and includes no analytics, advertising or automatic crash reporting services. It has no online mode or leaderboards either: you play against the computer or with friends, by passing the game around in a file or connecting nearby phones, and your games are not sent to any server of ours or of a third party.
 
 It is built with the Unity engine. If ads or any other feature that handles data are added in the future, we will update this policy and show the new date before publishing it.
 
@@ -119,7 +133,9 @@ The connection with Google Play is made by Unity In-App Purchasing, Unity's purc
 
 ## Permissions
 
-The game does not ask for access to your location, contacts, camera, microphone or files. To play with friends, Android lets you open a game file you were sent with the game: the game reads only that file.
+The game does not ask for access to your contacts, camera, microphone or files. To play with friends, Android lets you open a game file you were sent with the game: the game reads only that file.
+
+To play in the same room, Android requires Bluetooth, Wi-Fi and nearby devices permissions and, on Android 12 and earlier, the location permission too. The game does not use that permission to know where you are and never shares your location: the system asks for it because Bluetooth scans could be used to infer it. These permissions are only requested when you tap “Create a same-room game” or “Join a game”, and you can withdraw them in Android settings: they only affect playing in the same room.
 
 ## Downloading from Google Play
 
