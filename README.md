@@ -1,6 +1,6 @@
 # Política de privacidad de Four Crowns
 
-LSM Games Studio · *Última actualización: 27 de septiembre de 2026*
+LSM Games Studio · *Última actualización: 28 de septiembre de 2026*
 
 **Español** · [English](#four-crowns-privacy-policy)
 
@@ -12,8 +12,9 @@ LSM Games Studio es el desarrollador de Four Crowns, un juego de estrategia por 
 
 - No hace falta crear una cuenta y no te pedimos tu correo ni otros datos personales. Para jugar con amigos se pide un nombre, que ven las personas con las que juegas y, en la misma sala, los móviles cercanos que buscan partida.
 - Tu partida y tus ajustes se guardan solo en tu dispositivo.
-- El juego no muestra anuncios ni lleva servicios de estadísticas. Tiene una única compra opcional, el juego completo, que gestiona Google Play.
-- Se juega sin conexión. Solo se conecta para la compra: con Google Play y con la librería de compras de Unity. Las partidas con amigos viajan en un fichero que mandas tú, o directamente entre móviles cercanos, y no pasan por ningún servidor.
+- El juego no muestra anuncios. Tiene una única compra opcional, el juego completo, que gestiona Google Play.
+- Si lo permites en la ventana que sale la primera vez (o en Opciones), el juego envía estadísticas de uso a Google Analytics for Firebase. Si no, no envía ninguna.
+- Se juega sin conexión. Solo se conecta para la compra (con Google Play y con la librería de compras de Unity) y, si lo permites, para las estadísticas de uso. Las partidas con amigos viajan en un fichero que mandas tú, o directamente entre móviles cercanos, y no pasan por ningún servidor.
 
 ## Datos guardados en tu dispositivo
 
@@ -35,9 +36,15 @@ Mientras la partida está abierta, el móvil de quien la crea anuncia a los disp
 
 ## Lo que el juego no hace
 
-La versión actual de Four Crowns no muestra publicidad y no incluye servicios de estadísticas, de publicidad ni de envío automático de informes de errores. Tampoco tiene modo en línea ni clasificaciones: se juega contra la máquina o con amigos, pasándoos la partida en un fichero o conectando los móviles cercanos, y tus partidas no se mandan a ningún servidor nuestro ni de terceros.
+La versión actual de Four Crowns no muestra publicidad y no incluye servicios de publicidad ni de envío automático de informes de errores; las estadísticas de uso, solo si las permites (ver la sección siguiente). Tampoco tiene modo en línea ni clasificaciones: se juega contra la máquina o con amigos, pasándoos la partida en un fichero o conectando los móviles cercanos, y tus partidas no se mandan a ningún servidor nuestro ni de terceros.
 
 Está hecho con el motor Unity. Si en el futuro se añaden anuncios o cualquier otra función que trate datos, actualizaremos esta política e indicaremos la nueva fecha antes de publicarla.
+
+## Estadísticas de uso
+
+La primera vez que abres el juego descargado de Google Play, una ventana te pregunta si nos dejas medir cómo se juega. Solo si dices que sí, el juego usa Google Analytics for Firebase, un servicio de Google, para saber de forma estadística cómo se juega, mejorarlo y medir la eficacia de nuestras campañas de publicidad del juego. Registra, por ejemplo, la primera apertura, las sesiones, las partidas que empiezas y cómo acaban, si llegas al turno 10, las ciudades que conquistas, si tienes el juego completo y las compras hechas en Google Play. Para ello, el SDK de Firebase trata un identificador de instancia de la aplicación, el identificador de publicidad del dispositivo, la dirección IP (de la que se deduce una ubicación aproximada), información técnica del dispositivo y del sistema y esos eventos del juego. No incluye tu nombre ni tu correo, ni el contenido de tus partidas.
+
+Si dices que no, no se envía ninguna estadística. Puedes cambiar tu elección cuando quieras en **Opciones › Estadísticas**. LSM Games Studio consulta estos datos de forma agregada en la consola de Firebase y en Google Ads, y no los usa para identificarte; no se usan para anuncios personalizados. Más información en [Cómo utiliza Google la información de sitios web o aplicaciones que utilizan sus servicios](https://policies.google.com/technologies/partner-sites?hl=es).
 
 ## La compra del juego completo
 
@@ -49,7 +56,7 @@ La conexión con Google Play la hace Unity In-App Purchasing, la librería de co
 
 ## Permisos
 
-El juego no solicita acceso a los contactos, la cámara, el micrófono ni tus archivos. Para jugar con amigos, Android te deja abrir con el juego el fichero de una partida que te hayan mandado: el juego lee solo ese fichero.
+El juego no solicita acceso a los contactos, la cámara, el micrófono ni tus archivos. La librería de Google Analytics for Firebase declara el permiso del identificador de publicidad de Android, que solo se usa si permites las estadísticas; puedes restablecerlo o eliminarlo desde los ajustes de Android. Para jugar con amigos, Android te deja abrir con el juego el fichero de una partida que te hayan mandado: el juego lee solo ese fichero.
 
 Para jugar en la misma sala, Android exige permisos de Bluetooth, de Wi-Fi y de dispositivos cercanos, y el servicio de conexión de Google pide también el permiso de ubicación. El juego no usa ese permiso para saber dónde estás ni comparte tu ubicación: lo pide el sistema porque las búsquedas por Bluetooth podrían servir para deducirla. Estos permisos solo se piden al tocar «Crear partida en la sala» o «Unirse a una partida», y puedes retirarlos desde los ajustes de Android: solo afectan a jugar en la sala.
 
@@ -59,7 +66,7 @@ El juego se descarga desde Google Play, que trata los datos de la descarga y de 
 
 ## Conservación y eliminación
 
-La partida, las partidas con amigos y los ajustes se conservan en tu dispositivo hasta que borras los datos de la aplicación o la desinstalas. Puedes borrarlos desde los ajustes de Android, en la sección de almacenamiento de la aplicación; esta acción elimina las partidas guardadas. Una partida con amigos también se puede borrar desde «Con amigos», en el juego. Las copias del fichero que hayas mandado se quedan en los chats y dispositivos con los que lo compartiste: si quieres, bórralas allí.
+La partida, las partidas con amigos y los ajustes se conservan en tu dispositivo hasta que borras los datos de la aplicación o la desinstalas. Puedes borrarlos desde los ajustes de Android, en la sección de almacenamiento de la aplicación; esta acción elimina las partidas guardadas. Una partida con amigos también se puede borrar desde «Con amigos», en el juego. Las copias del fichero que hayas mandado se quedan en los chats y dispositivos con los que lo compartiste: si quieres, bórralas allí. Las estadísticas de uso, si las permites, se conservan en Google Analytics for Firebase como máximo 14 meses.
 
 ## Menores
 
@@ -67,7 +74,7 @@ Four Crowns no está dirigido a menores de 13 años y no recoge a sabiendas dato
 
 ## Tus derechos
 
-Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a [lsmgamesstudio@gmail.com](mailto:lsmgamesstudio@gmail.com). Como el juego no nos envía datos personales, lo habitual es que solo tengamos los que nos facilites tú en ese correo. También puedes presentar una reclamación ante la autoridad de protección de datos de tu país; en España, la [Agencia Española de Protección de Datos](https://www.aepd.es).
+Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación del tratamiento y portabilidad escribiendo a [lsmgamesstudio@gmail.com](mailto:lsmgamesstudio@gmail.com). Aparte de las estadísticas de uso, que son seudónimas y no podemos relacionar contigo sin información adicional, lo habitual es que solo tengamos los datos que nos facilites tú en ese correo. También puedes presentar una reclamación ante la autoridad de protección de datos de tu país; en España, la [Agencia Española de Protección de Datos](https://www.aepd.es).
 
 ## Comunicación por correo electrónico
 
@@ -86,7 +93,7 @@ LSM Games Studio\
 
 # Four Crowns privacy policy
 
-*Last updated: September 27, 2026*
+*Last updated: September 28, 2026*
 
 ## Who we are
 
@@ -96,8 +103,9 @@ LSM Games Studio is the developer of Four Crowns, a turn-based strategy game whe
 
 - You don't need an account, and we don't ask for your email or any other personal data. To play with friends you are asked for a name, which the people you play with can see and, in the same room, nearby phones looking for a game.
 - Your game and settings are stored only on your device.
-- The game shows no ads and includes no analytics services. There is a single optional purchase, the full game, handled by Google Play.
-- It is played offline. It only connects for the purchase: with Google Play and with Unity's purchasing library. Games with friends travel in a file you send yourself, or directly between nearby phones, and never go through a server.
+- The game shows no ads. There is a single optional purchase, the full game, handled by Google Play.
+- If you allow it in the window shown the first time (or in Options), the game sends usage statistics to Google Analytics for Firebase. If you don't, it sends none.
+- It is played offline. It only connects for the purchase (with Google Play and with Unity's purchasing library) and, if you allow it, for usage statistics. Games with friends travel in a file you send yourself, or directly between nearby phones, and never go through a server.
 
 ## Data stored on your device
 
@@ -119,9 +127,15 @@ While the game is open, the phone of whoever created it announces to nearby devi
 
 ## What the game does not do
 
-The current version of Four Crowns shows no advertising and includes no analytics, advertising or automatic crash reporting services. It has no online mode or leaderboards either: you play against the computer or with friends, by passing the game around in a file or connecting nearby phones, and your games are not sent to any server of ours or of a third party.
+The current version of Four Crowns shows no advertising and includes no advertising or automatic crash reporting services; usage statistics only if you allow them (see the next section). It has no online mode or leaderboards either: you play against the computer or with friends, by passing the game around in a file or connecting nearby phones, and your games are not sent to any server of ours or of a third party.
 
 It is built with the Unity engine. If ads or any other feature that handles data are added in the future, we will update this policy and show the new date before publishing it.
+
+## Usage statistics
+
+The first time you open the game downloaded from Google Play, a window asks whether you let us measure how the game is played. Only if you say yes does the game use Google Analytics for Firebase, a Google service, to understand in aggregate how the game is played, improve it and measure how well our ads for the game work. It records, for example, the first launch, sessions, the games you start and how they end, whether you reach turn 10, the cities you conquer, whether you have the full game and purchases made on Google Play. To do this, the Firebase SDK processes an app instance ID, your device's advertising ID, your IP address (from which an approximate location is inferred), technical information about your device and system, and those game events. It does not include your name, your email or the content of your games.
+
+If you say no, no statistics are sent. You can change your choice at any time in **Options › Statistics**. LSM Games Studio looks at this data in aggregate in the Firebase console and in Google Ads and does not use it to identify you; it is not used for personalized ads. Learn more in [How Google uses information from sites or apps that use its services](https://policies.google.com/technologies/partner-sites?hl=en).
 
 ## The full game purchase
 
@@ -133,7 +147,7 @@ The connection with Google Play is made by Unity In-App Purchasing, Unity's purc
 
 ## Permissions
 
-The game does not ask for access to your contacts, camera, microphone or files. To play with friends, Android lets you open a game file you were sent with the game: the game reads only that file.
+The game does not ask for access to your contacts, camera, microphone or files. The Google Analytics for Firebase library declares Android's advertising ID permission, which is only used if you allow statistics; you can reset or delete your advertising ID in Android settings. To play with friends, Android lets you open a game file you were sent with the game: the game reads only that file.
 
 To play in the same room, Android requires Bluetooth, Wi-Fi and nearby devices permissions, and Google's connection service also asks for the location permission. The game does not use that permission to know where you are and never shares your location: the system asks for it because Bluetooth scans could be used to infer it. These permissions are only requested when you tap “Create a same-room game” or “Join a game”, and you can withdraw them in Android settings: they only affect playing in the same room.
 
@@ -143,7 +157,7 @@ The game is downloaded from Google Play, which handles the data of the download 
 
 ## Retention and deletion
 
-Your game, your games with friends and your settings stay on your device until you clear the app's data or uninstall it. You can clear them in Android settings, under the app's storage section; this deletes your saved games. A game with friends can also be deleted from “With friends” in the game. Copies of the file you sent stay in the chats and devices you shared it with: delete them there if you wish.
+Your game, your games with friends and your settings stay on your device until you clear the app's data or uninstall it. You can clear them in Android settings, under the app's storage section; this deletes your saved games. A game with friends can also be deleted from “With friends” in the game. Copies of the file you sent stay in the chats and devices you shared it with: delete them there if you wish. Usage statistics, if you allow them, are kept in Google Analytics for Firebase for at most 14 months.
 
 ## Children
 
@@ -151,7 +165,7 @@ Four Crowns is not directed at children under 13 and does not knowingly collect 
 
 ## Your rights
 
-You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to [lsmgamesstudio@gmail.com](mailto:lsmgamesstudio@gmail.com). Because the game does not send us personal data, we will normally only hold what you provide in that email. You can also lodge a complaint with the data protection authority in your country; in Spain, the [Agencia Española de Protección de Datos](https://www.aepd.es).
+You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to [lsmgamesstudio@gmail.com](mailto:lsmgamesstudio@gmail.com). Apart from usage statistics, which are pseudonymous and which we cannot link to you without additional information, we will normally only hold what you provide in that email. You can also lodge a complaint with the data protection authority in your country; in Spain, the [Agencia Española de Protección de Datos](https://www.aepd.es).
 
 ## Email
 
